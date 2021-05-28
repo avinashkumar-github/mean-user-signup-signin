@@ -1,0 +1,64 @@
+<div class="container">
+  <div class="row">
+    <div *ngIf="submitted" class="alert alert-success" role="alert">
+      {{ message.message }}
+    </div>
+    <div class="col-md-7">
+      <form #signupForm="ngForm" (ngSubmit)="createUser(signupForm)">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            placeholder="name"
+            #name="ngModel"
+            [(ngModel)]="user.name"
+            required
+          />
+          <div *ngIf="signupForm.submitted && !name.valid">
+            <div class="alert alert-danger" role="alert">Invalid name !!</div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            required
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="name@example.com"
+            #email="ngModel"
+            [(ngModel)]="user.email"
+            [pattern]="emailRejex"
+          />
+          <div *ngIf="signupForm.submitted && !email.valid">
+            <div class="alert alert-danger" role="alert">Invalid email !!</div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Password</label
+          >
+          <input
+            type="password"
+            name="password"
+            class="form-control"
+            placeholder="password"
+            #password="ngModel"
+            [(ngModel)]="user.password"
+            required
+          />
+          <div *ngIf="signupForm.submitted && !password.valid">
+            <div class="alert alert-danger" role="alert">
+              Invalid password !!
+            </div>
+          </div>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+</div>
