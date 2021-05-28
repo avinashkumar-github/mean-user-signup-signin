@@ -1,0 +1,21 @@
+<div *ngIf="errorStatus">
+  {{ errorMessage }}
+</div>
+<form #signin="ngForm" (ngSubmit)="signin.valid && onLogin(signin)">
+  <input
+    type="text"
+    name="email"
+    #email="ngModel"
+    [(ngModel)]="model.email"
+    placeholder="Email"
+    required
+  />
+  <input
+    type="password"
+    name="password"
+    required
+    #password="ngModel"
+    [(ngModel)]="model.password"
+  />
+  <button type="submit">SignIn</button>
+</form>
