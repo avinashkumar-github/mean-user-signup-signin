@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "60afbbfa19669857d02fb0cd"
+  },
+  "name": "Avinash Kumar",
+  "email": "avinashau.cbe@gmail.com",
+  "password": "$2a$10$MuAiIdxicbeXlg3DAxnoMeyCFL1ntrTvgWCOjJM2wK0QyRtfaql2W",
+  "createdAt": {
+    "$date": "2021-05-27T15:34:18.029Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-27T15:34:18.029Z"
+  },
+  "salt": "$2a$10$MuAiIdxicbeXlg3DAxnoMe",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60afc78219669857d02fb0ce"
+  },
+  "name": "John",
+  "email": "john@gmail.com",
+  "password": "$2a$10$lkqxhFAbPRrfBluClnxuGO3tp2y6dU7CJv/h7OpQIP62pmAxzCHMq",
+  "createdAt": {
+    "$date": "2021-05-27T16:23:30.724Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-27T16:23:30.724Z"
+  },
+  "salt": "$2a$10$lkqxhFAbPRrfBluClnxuGO",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60afcbf419669857d02fb0d7"
+  },
+  "name": "Mac",
+  "email": "mac@gmail.com",
+  "password": "$2a$10$JibPxoOn32ENJgJs2nv.aeXL/cx.vzvb58KKFREDVBQxBGNXPY26e",
+  "createdAt": {
+    "$date": "2021-05-27T16:42:28.394Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-27T16:42:28.394Z"
+  },
+  "salt": "$2a$10$JibPxoOn32ENJgJs2nv.ae",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60afcc4119669857d02fb0d9"
+  },
+  "name": "Jenifer",
+  "email": "jenifer@gmail.com",
+  "password": "$2a$10$QVhQM/rBUuBvStirjkEke.mZMqAXbJxe/k.UqwjzzLNAU/fwWbbyG",
+  "createdAt": {
+    "$date": "2021-05-27T16:43:45.737Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-27T16:43:45.737Z"
+  },
+  "salt": "$2a$10$QVhQM/rBUuBvStirjkEke.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60afdccf19669857d02fb0dd"
+  },
+  "name": "Avinash Kumar",
+  "email": "admin@example.com",
+  "password": "$2a$10$.uQ4o5wL2Nh.FnEuokAlWuS/o2QTWxQ9b/5Z.91xy0tQir/lHwkOW",
+  "createdAt": {
+    "$date": "2021-05-27T17:54:23.522Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-27T17:54:23.522Z"
+  },
+  "salt": "$2a$10$.uQ4o5wL2Nh.FnEuokAlWu",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b159f044af180258961670"
+  },
+  "name": "mike",
+  "email": "m@gmail.com",
+  "password": "$2a$10$hB6FsgVYLD8akZ3UsSxDYuhw2OPmvvGUgx/wNQzXOjJDB8u4Dv/E6",
+  "createdAt": {
+    "$date": "2021-05-28T21:00:32.178Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-28T21:00:32.178Z"
+  },
+  "salt": "$2a$10$hB6FsgVYLD8akZ3UsSxDYu",
+  "__v": 0
+}]
